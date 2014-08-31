@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+    
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_action_line_chart"
+        android:drawablePadding="5dp"
+        android:text="@string/statistic"
+        android:textSize="22sp"
+        android:textColor="#ffff4444" />
+    
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#ffff4444"/>
+
+    <TextView
+        android:id="@+id/statistic_currentwifi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/currentWifi"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/statistic_currentwifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/statistic_lastUpdate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/lastServerUpdate"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/statistic_lastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/statistic_sessionUpdates_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sessionUpdatesSend"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/statistic_sessionUpdates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textSize="18sp" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/password" />
+
+        <ImageButton
+            android:id="@+id/buttonSavePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_send"
+            android:background="@drawable/button_background" />
+    </LinearLayout>
+
+</LinearLayout>

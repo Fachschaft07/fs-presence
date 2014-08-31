@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FSPresence</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="nameDialogTitle">Falsche Eingabe</string>
+    <string name="emptyChar">Mindestens ein Buchstabe erforderlich.</string>
+    <string name="status">Status</string>
+    <string name="present">Anwesend</string>
+    <string name="busy">Beschäftigt</string>
+    <string name="incognito">Incognito</string>
+    <string name="statistic">Statistik</string>
+    <string name="currentWifi">Aktuelles WLan:</string>
+    <string name="lastServerUpdate">Letztes Server Update:</string>
+    <string name="sessionUpdatesSend">Session Updates gesendet:</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="noWifi">Kein WLan erkannt!</string>
+    <string name="authentification">Authentifizierung</string>
+    <string name="authentificationerror">Authentifizierung fehlgeschalgen!</string>
+    <string name="password">Passwort</string>
+    <string name="passwordSaved">Passwort gespeichert&#8230;</string>
+    <string name="unknownError">Unbekannter Fehler</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FSPresence</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="nameDialogTitle">Wrong Input</string>
+    <string name="emptyChar">At least one Character required</string>
+    <string name="status">Status</string>
+    <string name="present">Present</string>
+    <string name="busy">Busy</string>
+    <string name="incognito">Incognito</string>
+    <string name="statistic">Statistic</string>
+    <string name="currentWifi">Current Wifi:</string>
+    <string name="lastServerUpdate">Last Server Update:</string>
+    <string name="sessionUpdatesSend">Session Updates Send:</string>
+    <string name="refresh">Refresh</string>
+    <string name="authentification">Authentification</string>
+    <string name="authentificationerror">Authentification failed!</string>
+    <string name="password">Password</string>
+    <string name="passwordSaved">Password saved&#8230;</string>
+    <string name="noWifi">No Wifi detected!</string>
+    <string name="unknownError">Unknown Error</string>
+
+</resources>
