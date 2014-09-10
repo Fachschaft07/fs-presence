@@ -122,3 +122,4 @@ pom.xml.next
 release.properties
 
 temp
+db.sqlite
