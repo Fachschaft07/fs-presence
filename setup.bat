@@ -33,6 +33,7 @@ copy db.sqlite ..\FSPresenceServer\db.sqlite
 mkdir ..\FSPresenceServer\ssl
 copy server.jks ..\FSPresenceServer\ssl\server.jks
 copy client.jks ..\FSPresencesClient\client.jks
+mkdir ..\FSPresence\res\raw
 copy keystore.bks ..\FSPresence\res\raw\keystore.bks
 
 cd..
