@@ -18,7 +18,7 @@ import edu.hm.cs.fs.presence.common.Util;
 public class FSPresenceServer {
 	private static final Logger LOGGER = LogManager.getLogger(FSPresenceServer.class.getName());
 
-	private static final String CONFIG_FILE_PATH = "conf/fspresence_config.properties";
+	private static final String CONFIG_FILE_PATH = "conf/config.properties";
 
 	/**
 	 * Main method.
