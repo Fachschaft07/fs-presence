@@ -1,11 +1,12 @@
 @echo off
 
+mkdir temp && cd temp
+
 rem Create empty database file
-type NUL > FSPresenceServer\db.sqlite
+type NUL > db.sqlite
 
 
 rem Generate mandatory files for SSL (key and cert)
-mkdir temp && cd temp
 echo.
 echo Generate Private Key
 echo ===============================
@@ -21,6 +22,9 @@ echo Import Certificate into Truststore
 echo ===============================
 keytool -import -v -trustcacerts -alias fspresenceserver -file server.cer -keystore client.jks
 
+
+rem Distribute files
+copy db.sqlite ..\FSPresenceServer\db.sqlite
 mkdir ..\FSPresenceServer\ssl
 copy server.jks ..\FSPresenceServer\ssl\server.jks
 copy client.jks ..\FSPresencesClient\client.jks

@@ -123,3 +123,4 @@ release.properties
 
 temp
 db.sqlite
+*.jks
